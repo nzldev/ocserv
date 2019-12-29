@@ -3,7 +3,7 @@
 #                                                     #
 # This is a ocserv installation for CentOS 7 and 6    #
 # Version: 1.1.1		                      #
-# Author: nzl.nadeem@gmial.com     		      #
+# Author: nzl.nadeem@gmail.com     		      #
 # Website: https://devsmine.com			      #
 #                                                     #
 #######################################################
