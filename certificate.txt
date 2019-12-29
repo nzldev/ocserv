@@ -1,0 +1,21 @@
+#Add server configuration before certificate user
+yum install httpd -y
+service httpd start
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+echo 'iptables -A INPUT -p tcp --dport 80 -j ACCEPT' >> /etc/rc.local
+echo 'systemctl start httpd' >>/etc/rc.local
+
+#Add certificate user
+cd /root/iVPN
+mkdir nzlNadeem
+cd nzlNadeem
+../gen-client-cert.sh nzlNadeem /root/iVPN
+cp nzlNadeem.p12 /var/www/html/
+
+#Get the certificate address, the following IP/Domain should be modified to the IP address of your actual server
+http://hostname.com/nzlNadeem.p12
+
+
+#Add password to login user, where nzlNadeem is the username
+
+ocpasswd -c /etc/ocserv/ocpasswd nzlNadeem
