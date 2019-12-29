@@ -22,7 +22,6 @@
 > * user_del.sh-quick delete iVPN client account and disable account certificate script
 > * client_download.txt-download address for different types of clients
 > * certificate.txt-add certificate user description separately
-> * /ssl/server_ssl_install.txt The method of connecting the server through the domain name and configuring trusted SSL
 
 ## Modify the contents of the /var/lib/ocserv/profile.xml file to push the server configuration to the client ###
 ```bash
