@@ -31,11 +31,11 @@ vi /var/lib/ocserv/profile.xml
 ```xml
 <ServerList>
                 <HostEntry>
-                    <HostName>服务器描述1</HostName>
+                    <HostName>Server description 1</HostName>
                     <HostAddress>server1_ipaddress:port</HostAddress>
                 </HostEntry>
                 <HostEntry>
-                    <HostName>服务器描述2</HostName>
+                    <HostName>Server description 2</HostName>
                     <HostAddress>server2_ipaddress:port</HostAddress>
                 </HostEntry>
 </ServerList>
