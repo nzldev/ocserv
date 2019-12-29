@@ -25,18 +25,18 @@
 > * /ssl/server_ssl_install.txt The method of connecting the server through the domain name and configuring trusted SSL
 
 ## Modify the contents of the /var/lib/ocserv/profile.xml file to push the server configuration to the client ###
-``
+```bash
 vi /var/lib/ocserv/profile.xml
-``
-``
+```
+```xml
 <ServerList>
                 <HostEntry>
-                    <HostName> Server description 1 </ HostName>
-                    <HostAddress> server1_ipaddress: port </ HostAddress>
-                </ HostEntry>
+                    <HostName>服务器描述1</HostName>
+                    <HostAddress>server1_ipaddress:port</HostAddress>
+                </HostEntry>
                 <HostEntry>
-                    <HostName> Server description 2 </ HostName>
-                    <HostAddress> server2_ipaddress: port </ HostAddress>
-                </ HostEntry>
-</ ServerList>
-``
+                    <HostName>服务器描述2</HostName>
+                    <HostAddress>server2_ipaddress:port</HostAddress>
+                </HostEntry>
+</ServerList>
+```
