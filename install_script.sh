@@ -2,11 +2,11 @@
 #######################################################
 #                                                     #
 # This is a ocserv installation for CentOS 7 and 6    #
-# Version: 1.1.1		                              #
-# Author: nzl.nadeem@gmial.com     		              #
-# Website: https://devsmine.com					      #
+# Version: 1.1.1		                      #
+# Author: nzl.nadeem@gmial.com     		      #
+# Website: https://devsmine.com			      #
 #                                                     #
-####################################################
+#######################################################
 #
 #Check if it is root user
 function check_root(){
